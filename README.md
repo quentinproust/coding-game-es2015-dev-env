@@ -7,7 +7,7 @@
 
 ## Install :
 
-- Clone the repository
+- Clone the repository or just download the files in a directory
 - Run `npm install`
 - Run `npm dev` to make sure everything works fine. It should run all tests and build `codingame-script.js` in `dist/`
 - That's all ;)
@@ -25,10 +25,11 @@ The tests should be in `test` directory.
 
 ## Commands :
 
-- dev : watch modification in src and test. Run all tests and build for every changes.
-- build : Build all src files to dist/codingame-script.js
-- test : Run test once
-- tdd : watch for modification in src and test. Run all tests for every changes.
+The following commands are defined in package.json. They can be run with `npm run <command name>`:
+- *dev* : watch modification in src and test. Run all tests and build for every changes.
+- *build* : Build all src files to dist/codingame-script.js
+- *test* : Run test once
+- *tdd* : watch for modification in src and test. Run all tests for every changes.
 
 ## Language :
 
@@ -36,4 +37,4 @@ The targeted language is javascript in es2015 version.
 
 The script "codingame-script.js" is in es2015, it's supported by Codingame.
 
-The tests are automatically transpiled in es5 (old javascript) with [babel](https://babeljs.io/learn-es2015/). They use [mocha](https://mochajs.org/) + [chai](http://chaijs.com/).
+The tests are automatically transpiled in es5 (old javascript) with [babel](https://babeljs.io/learn-es2015/). They run with [mocha](https://mochajs.org/) + [chai](http://chaijs.com/).
