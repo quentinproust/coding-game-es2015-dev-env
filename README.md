@@ -24,7 +24,7 @@ The following commands are defined in package.json. They can be run with `npm ru
 
 The targeted language is javascript in es2015 version.
 
-The script "codingame-script.js" is in es2015, it's supported by Codingame.
+The script `codingame-script.js` is in es2015, it's supported by Codingame.
 
 The tests are automatically transpiled in es5 (old javascript) with [babel](https://babeljs.io/learn-es2015/). They run with [mocha](https://mochajs.org/) + [chai](http://chaijs.com/).
 
