@@ -46,9 +46,9 @@ The new api is defined in src/Codingame.js. You can import it in any javascript 
 
 Here the differences :
 
-- Logging : in Codingame, you use the `printErr(msg)` function. Here, you will use `log(msg)`. It maps to `printErr(msg)` in the Codingame ide and to `console.log(msg)` in tests.
-- Input : in Codingame, you use the `readline()` function. Here, you will use `io.readline()`. It maps to `readline()` in Codingame ide and to a list of lines in tests. To add new lines in your tests, use `io.addInputLine(line)`.
-- Output : in Codingame, you use the `print(command)` function to give new command. Here, you will use `io.print(line)`. It maps to `print(line)` in Codingame ide and to a list of commands in tests. To read the commands in your tests, use `io.getNextPrintCommand()`.
+- *Logging* : in Codingame, you use the `printErr(msg)` function. Here, you will use `log(msg)`. It maps to `printErr(msg)` in the Codingame ide and to `console.log(msg)` in tests.
+- *Input* : in Codingame, you use the `readline()` function. Here, you will use `io.readline()`. It maps to `readline()` in Codingame ide and to a list of lines in tests. To add new lines in your tests, use `io.addInputLine(line)`.
+- *Output* : in Codingame, you use the `print(command)` function to give new command. Here, you will use `io.print(line)`. It maps to `print(line)` in Codingame ide and to a list of commands in tests. To read the commands in your tests, use `io.getNextPrintCommand()`.
 
 As you can see, it's pretty straightforward. Below an example : 
 
