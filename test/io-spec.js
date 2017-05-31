@@ -1,8 +1,12 @@
-import { describe, it } from 'mocha';
+import { describe, it, beforeEach } from 'mocha';
 import { expect } from 'chai';
 import { io } from '../src/Codingame';
 
 describe('io', () => {
+    beforeEach(() => {
+        io.reset();
+    });
+
     describe('readline()', () => {
         it('should return hello world when store contains hello world', () => {
             io.addInputLine('hello world');
