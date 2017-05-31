@@ -30,6 +30,11 @@ export class io {
         return io.printLineStore.shift();
     }
 
+    static reset() {
+        io.inputLineStore = [];
+        io.printLineStore = [];
+    }
+    
     static readline() {
         if (inCodingameIde) {
             return readline();
