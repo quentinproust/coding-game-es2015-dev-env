@@ -1,18 +1,18 @@
 # Codingame dev env for javascript (es2015)
 
-## Requirement :
+## Requirement
 
 - Node and npm installed
 - If you want your successful build to be synchronised with the coding game ide, use the chrome extension `CodinGame Sync` as described in the [codingame FAQ](https://www.codingame.com/faq)
 
-## Install :
+## Install
 
 - Clone the repository or just download the files in a directory
 - Run `npm install`
 - Run `npm dev` to make sure everything works fine. It should run all tests and build `codingame-script.js` in `dist/`
 - That's all ;)
 
-## Commands :
+## Commands
 
 The following commands are defined in package.json. They can be run with `npm run <command name>`:
 - *dev* : watch modification in src and test. Run all tests and build for every changes.
@@ -20,7 +20,7 @@ The following commands are defined in package.json. They can be run with `npm ru
 - *test* : Run test once
 - *tdd* : watch for modification in src and test. Run all tests for every changes.
 
-## Language :
+## Language
 
 The targeted language is javascript in es2015 version.
 
